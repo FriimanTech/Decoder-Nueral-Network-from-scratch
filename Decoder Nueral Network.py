@@ -17,7 +17,7 @@ dropout = 0.2
 
 torch.manual_seed(1337)
 
-with open("path for test file", 'r', encoding='utf-8') as f:
+with open("path for text file", 'r', encoding='utf-8') as f:
     text = f.read()
 #here are the unique characters that occur in this text
 chars = sorted(list(set(text)))
